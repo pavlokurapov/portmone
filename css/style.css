@@ -1,0 +1,168 @@
+body {
+  font-size: 14px;
+  font-family: Arial, sans-serif; }
+
+header {
+  width: 100%;
+  height: 180px;
+  background-color: #000; }
+
+header img {
+  max-width: 200px;
+  float: left; }
+
+#motto {
+  display: table;
+  height: 100%;
+  vertical-align: middle;
+  float: left;
+  font-size: 2em;
+  color: #fff; }
+
+#motto-wrapper {
+  display: table-cell;
+  vertical-align: middle; }
+
+#menu {
+  background-color: #78A638; }
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px; }
+
+#menu ul {
+  padding-left: 15px;
+  display: inline-block; }
+
+#menu li {
+  display: table-cell;
+  height: 40px;
+  padding: 0px 4px;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #1E2A0D;
+  font-size: 1.1667em;
+  text-transform: uppercase;
+  cursor: pointer; }
+
+#nav {
+  min-width: 200px;
+  display: table-cell;
+  vertical-align: top;
+  background: #444; }
+
+#nav ul {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000; }
+
+#nav li {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  color: #DEDEDE;
+  border-top: 1px solid #000;
+  font-size: 1.1667em;
+  cursor: pointer; }
+
+main {
+  display: table-cell;
+  width: 100%;
+  text-align: center; }
+
+main section {
+  display: inline-block;
+  max-width: 700px;
+  width: 100%;
+  text-align: left; }
+
+main section h1 {
+  text-align: center; }
+
+.main_img {
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block; }
+
+.clear {
+  clear: both; }
+
+footer {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #222222;
+  color: #DEDEDE;
+  text-align: center; }
+
+#table-wrapper {
+  display: table; }
+
+.img-wrapper {
+  display: table;
+  width: 100%;
+  text-align: center; }
+
+#mobile-button {
+  display: none;
+  width: 30px;
+  height: 100%;
+  margin-left: 3px;
+  cursor: pointer; }
+
+#mobile-button:hover {
+  background-color: #000; }
+
+#mobile-button hr {
+  color: #fff;
+  background-color: #fff;
+  height: 2px; }
+
+@media (max-width: 850px) {
+  #logo {
+    display: none; }
+
+  header {
+    height: 100px; }
+
+  #motto {
+    width: 100%; }
+
+  #motto-wrapper {
+    text-align: center; }
+
+  #nav {
+    display: none; }
+
+  main section {
+    max-width: none; } }
+@media (max-width: 685px) {
+  #menu ul {
+    display: none; }
+
+  .img-wrapper {
+    display: inline-block;
+    width: 100%; }
+
+  .main-img {
+    width: 100%; }
+
+  main section h1 {
+    font-size: 1.6em; }
+
+  #mobile-button {
+    display: inline-block; }
+
+  #menu {
+    -webkit-transition: width 2s, height 4s;
+    /* Safari */
+    transition: width 2s, height 4s; }
+
+  #menu .block {
+    display: block; }
+
+  .no-display {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
